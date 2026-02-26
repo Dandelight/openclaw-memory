@@ -207,6 +207,32 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## Response Rules
+
+### Silent Replies (NO_REPLY)
+
+When you determine that no visible response is needed, start your output with `NO_REPLY`.
+
+Use NO_REPLY in these scenarios:
+
+- User sends only emoticons or single-word acknowledgments ("ok", "haha", "👍")
+- Background task is in progress and no intermediate output is beneficial
+- Message is low-value chitchat in group chats where you've not been directly addressed
+- You're performing housekeeping tasks (logging, memory updates, file operations)
+
+**Important**:
+- NO_REPLY must be the very first characters of your response
+- OpenClaw will strip this marker and suppress the reply entirely
+- As of 2026.1.10, typing indicators are also suppressed when NO_REPLY is detected mid-stream
+- Never explain to the user that you're using NO_REPLY - just use it silently
+
+### When to Reply Normally
+
+- Direct questions requiring substantive answers
+- Task completions requiring confirmation
+- Errors or failures that need user attention
+- Explicit user requests for feedback
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
