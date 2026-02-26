@@ -1,0 +1,38 @@
+{
+  "scope_version:app:cli_a92abc5019395bc8:WwED7jqU:user": {
+    "data": {
+      "scopeVersion": "2.0.0",
+      "scopeList": [
+        "docx:document.block:convert",
+        "base:app:read",
+        "bitable:app",
+        "bitable:app:readonly",
+        "board:whiteboard:node:create",
+        "board:whiteboard:node:read",
+        "contact:user.employee_id:readonly",
+        "docs:document.content:read",
+        "docx:document",
+        "docx:document:create",
+        "docx:document:readonly",
+        "drive:drive",
+        "drive:drive:readonly",
+        "drive:file",
+        "drive:file:upload",
+        "sheets:spreadsheet",
+        "sheets:spreadsheet:readonly",
+        "space:document:retrieve",
+        "space:folder:create",
+        "wiki:space:read",
+        "wiki:space:retrieve",
+        "wiki:wiki",
+        "wiki:wiki:readonly",
+        "search:docs:read",
+        "offline_access"
+      ],
+      "validatedAt": 1772102813,
+      "validatedVersion": "2.0.0"
+    },
+    "timestamp": 1772102813185,
+    "expiresAt": 9007199254740991
+  }
+}
